@@ -5,10 +5,11 @@ public class Car {
     String color = "blue";
     double price = 50000.00;
 
-    void drive () {
+    void drive() {
         System.out.println("You drive the car");
     }
-    void brake () {
+
+    void brake() {
         System.out.println("You step on the brakes");
     }
 }
